@@ -42,6 +42,12 @@ Plots such as heatmaps, histograms, and scatter plots were used to analyze featu
 
 ![EDA Heatmap](Images/EDA_heatmap.png)
 
+*Ref 3: Graph showing Attrition Distribution by Job Role*
+
+This visualization shows employee attrition across different job roles using a count plot. It highlights how attrition varies between roles by comparing the number of employees who stayed versus those who left, helping identify roles with higher turnover.
+
+![Job Role vs Attrition](Images/graph.png)
+
 ### 3. Data Preprocessing
 
 The dataset was cleaned and prepared by handling missing values, encoding categorical variables, and applying feature scaling where required. To address class imbalance in the target variable, SMOTE was applied, ensuring the model learned patterns effectively from both classes.
@@ -58,6 +64,22 @@ A Logistic Regression classification model was trained using the training datase
 
 The trained model was used to predict employee attrition on the test dataset. Model performance was evaluated using metrics such as accuracy, precision, recall, F1-score, and a confusion matrix to assess prediction quality. The results were further analyzed to understand attrition trends and support data-driven workforce decisions.
 
-*Ref 2: Prediction Result*
+*Ref 4: Confusion Matrix*
+
+The confusion matrix visualizes the model’s classification performance by showing the number of correct and incorrect predictions for each class. It helps evaluate how well the model distinguishes between employees who stayed and those who left.
+
+![Classification Confusion Matrix](Images/confusion_matrix.png)
+
+*Ref 5: Prediction Result*
 
 ![Prediction Result](Images/prediction.png)
+
+### 7. Attrition Rate Calculation
+
+The attrition rate of the company was calculated to understand the overall employee turnover. This metric represents the percentage of employees who left the organization during the observed period and provides a high-level view of workforce stability.
+
+*Ref 6: Attrition Rate Calculation*
+
+The calculation compares the number of employees who left the company with the total number of employees, helping quantify the scale of attrition and support further analysis and modeling.
+
+![Employee Attrition Rate](Images/attrition_rate.png)
