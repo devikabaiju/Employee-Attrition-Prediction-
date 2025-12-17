@@ -30,7 +30,7 @@ The employee dataset was loaded using Pandas for analysis and machine learning m
 
 This step involved checking the first few rows, data types, and basic statistics to gain an overview of the dataset.
 
-![Dataset Preview](Images/data_preview.png)
+![Dataset Preview](Images/dataset_preview.png)
 
 ### 2. Exploratory Data Analysis (EDA)
 
